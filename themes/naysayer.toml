@@ -1,0 +1,24 @@
+"ui.background" = { fg = "textyellow", bg = "deepblue" }
+"ui.selection" = { fg = "white", bg = "blue"}
+"ui.statusline" = { fg = "black", bg = "textyellow"}
+"keyword" = {fg = "white"}
+"comment" = {fg = "commentgreen"}
+"string" = {fg = "strings"}
+"constant" = {fg = "constants"}
+"ui.linenr" = {fg = "linenumbers"}
+"ui.linenr.selected" = {fg = "white"}
+"type" = { fg = "commentgreen"}
+ 
+[palette]
+textyellow = "#d1b897"
+deepblue = "#062329"
+black = "#000000"
+blue = "#0000ff"
+yellow = "#E6DB74"
+white = "#FFFFFF"
+commentgreen = "#44b340"
+variables = "#c1d1e3"
+strings = "#2ec09c"
+constants = "#7ad0c6"
+punctuation = "#8cde94"
+linenumbers = "#5ab0a6"

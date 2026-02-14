@@ -1,7 +1,26 @@
-[language-server.pylsp.config.pylsp.plugins]
-flake8 = {enabled = true, ignore = ['W503', 'E203', 'B019', 'B028', 'C408', 'Q000', 'Q001']}
-ruff = { enabled = true}
+[[language]]
+name = "python"
+auto-format = true
+language-servers = [
+    { name = "pyright" },
+    { name = "ruff-lsp" }
+]
+
+[language-server.pyright]
+command = "pyright-langserver"
+args = ["--stdio"]
+config = {}
+
+[language-server.ruff-lsp]
+command = "ruff-lsp"
+args = []
+config = {}
+
 
 [[language]]
 name = "c"
-indent = { tab-width = 4, unit = "\t" }
+indent = { tab-width = 2, unit = "\t" }
+
+[[language]]
+name = "cpp"
+indent = { tab-width = 2, unit = "\t" }

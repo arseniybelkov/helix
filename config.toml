@@ -1,7 +1,6 @@
-theme = "gruvbox"
+theme = "gh-dark"
 
 [editor.cursor-shape]
 insert = "bar"
 normal = "block"
 select = "underline"
-
