@@ -6,6 +6,13 @@ language-servers = [
     { name = "ruff-lsp" }
 ]
 
+[[language]]
+name = "cuda"
+scope = "source.cuda"
+file-types = ["cu"]
+language-servers = [ "clangd" ]
+indent = { tab-width = 2, unit = "\t" }
+
 [language-server.pyright]
 command = "pyright-langserver"
 args = ["--stdio"]
